@@ -3,7 +3,6 @@ package com.korit.servlet_study.ch03;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.Optional;
 
 public class UserRepository {
     private static UserRepository instance;
