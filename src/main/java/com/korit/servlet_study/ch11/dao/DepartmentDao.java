@@ -38,9 +38,9 @@ public class DepartmentDao {
 
             while (rs.next()) {
                 Department department = Department.builder()
-                        .departmentId(rs.getInt("departmene_id"))
-                        .departmentCode(rs.getString("departmene_code"))
-                        .departmentName(rs.getString("departmene_name"))
+                        .departmentId(rs.getInt("department_id"))
+                        .departmentCode(rs.getString("department_code"))
+                        .departmentName(rs.getString("department_name"))
                         .build();
                 departments.add(department);
             }

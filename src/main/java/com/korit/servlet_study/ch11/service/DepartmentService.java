@@ -10,7 +10,7 @@ import java.util.List;
 public class DepartmentService {
     private final DepartmentDao departmentDao;
 
-    public List<Department> getDepartment() {
+    public List<Department> getDepartments() {
         return departmentDao.findAll();
     }
 }
